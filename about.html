@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KASHAT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="icon" href="images/icon.png">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-kashat-small.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="help.html">HELP</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section> 
+    
+    <!-- About us Content ---------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are the Worls's Largest Nano lending Mobile application</h1>
+                <p>
+                    Kashat – Borrow Differently
+                    Kashat helps you with instant credit, by offering short term loans that start from 100 EGP up to 1500 EGP with a repayment plan up to 61 days. Once approved, you can withdraw your loan through any AMAN store.
+                    What do you need to create an account on Kashat?<br>
+                    – You must be above 18 years old.<br>
+                    – You must be Egyptian.<br>
+                    – Your national ID must be valid.<br>
+                    Kashat is Regulated by FRA                </p>
+                <a href="" class="hero-btn yellow-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/9.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- fACI HELP COURCE ------ -->
+    
+    <section class="facilities">
+        <h1>Our Success</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/11.jpg" >
+                <h3>World Class System</h3>
+                <p>
+                     by offering short term loans that start from 100 EGP up to 1500 EGP with a repayment plan up to 61 days.       </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/person2.jpg"  >
+                <h3>Instant and Fast Loans
+                </h3>
+                <p>
+                    Create an account, answers few questions get approved instantly and withdraw within minutes.                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/person3.jpg" >
+                <h3>Flexible without complications
+                </h3>
+                <p>
+                    Without documentations or a guarantor, all you need is your valid national ID and you are good to go.                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Fotter -->
+    <section class="footer">
+        <h4>More About KASHAT</h4>
+        <p>
+            Kashat
+            Borrow Differently <br>
+            Kashat is the first Nano lending mobile application in Egypt, offering short term loans that start from 100 EGP up to 1500 EGP <br>with a repayment plan up to 61 days </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-telegram"></i>
+        </div>
+        <p> All &copy; With <i class="fa fa-heart-o"></i> KASHAT Egypt  </p>
+    </section>
+
+    <!-- JavaScript For Toggle Menu -------------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KASHAT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="icon" href="images/icon.png">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-kashat-small.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="help.html">HELP</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> OUR HELP</h1>
+    </section> 
+
+    <!-- Help Course -------->
+
+     
+    <section class="course">
+        <h1>Help & Offer</h1>
+        <p>Kashat helps you with instant credit, by offering short term loans that start from 100 EGP up to 1500 EGP with a repayment plan up to 61 days. Once approved, you can withdraw your loan through any AMAN store.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>What is Kashat?</h3>
+                <p>
+                    Kashat is the first Nano lending mobile application in Egypt, offering short term loans that start from 100 EGP up to 1500 EGP with a repayment plan up to 2 months, Kashat is licensed from the Financial Regulatory Authority.</p>
+            </div>
+            <div class="course-col">
+                <h3>What are the requirements to use Kashat Service?</h3>
+                <p>
+                    You must be Egyptian
+                    Your age must be 18+
+                    Your National ID should be valid for at least 3 months.</p>
+            </div>
+            <div class="course-col">
+                <h3>What devices do you support?</h3>
+                <p>
+                    Kashat is supported on any Android Smartphone that has a back camera to take a picture of your national ID card, a front camera to take a selfie , and must operate on Android version 5 or above.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>How can I borrow from kashat?</h3>
+                <p>
+                    When you download the app and create an account, we will ask you several question to know more about you and based on your answers, a loan limit will be assigned to you.Once you accept the loan amount, you will be able to withdraw it from Aman, Fawry or Vodafone Cash.</p>
+            </div>
+            <div class="course-col">
+                <h3>Why is the loan amount very low ? How can I increase it ?</h3>
+                <p>
+                    At first, your limit will be low since you're a new Kashat customer with no historical credit transactions, but by time when you start paying back on time and building strong historical transactions, your credit score will increase and hence your loan limits will be higher.</p>
+            </div>
+            <div class="course-col">
+                <h3>Why is my loan rejected ?</h3>
+                <p>
+                    Our loan decisions are made by an automated system that takes into account many factors, including your loan application answers, income and payment of previous loans, we are currently working hard to be able to serve more customers in the future.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>What should I do if I need a settlement letter ?</h3>
+                <p>
+                    Contact us on 15022 after repaying your loan and request a settlement letter. It will be issued within a month from your request date.</p>
+            </div>
+            <div class="course-col">
+                <h3>What can I do if I forgot my pin or lost my phone?</h3>
+                <p>What can I do if I forgot my pin or lost my phone?
+                    Click on forget pin and you will start the process to create a new one, or contact us on 15022 For assistance.</p>
+            </div>
+            <div class="course-col">
+                <h3>Why is the app unable to verify my phone number ?</h3>
+                <p>
+                    You need to make sure that your current SIM card number is the same number you signed up with, your phone has one operating SIM card only, and the application is compatible with your mobile system.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+    <!-- Fotter -->
+    <section class="footer">
+        <h4>More About KASHAT</h4>
+        <p>
+            Kashat
+            Borrow Differently <br>
+            Kashat is the first Nano lending mobile application in Egypt, offering short term loans that start from 100 EGP up to 1500 EGP <br>with a repayment plan up to 61 days </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-telegram"></i>
+        </div>
+        <p> All &copy; With <i class="fa fa-heart-o"></i> KASHAT Egypt  </p>
+    </section>
+
+    <!-- JavaScript For Toggle Menu -------------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
